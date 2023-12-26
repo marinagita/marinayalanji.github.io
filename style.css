@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    /* внешний отступ */
+    margin: 0;
+    /* внутренний отступ */
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.MainScreen {
+      /* background: #ECE7E4 url(back2.jpg) top right/50% 100% no-repeat; */
+     background: #ECE7E4;
+     position: relative;
+     padding: 130px 100px 130px 100px;
+     z-index: 1;
+}
+
+.main-img {
+    position:absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.Main_h2 {
+    color: #645C55;
+    font-size: 14px;
+    /* начертание */
+    font-style: normal;
+    /* жирность начертания */
+    font-weight: 400;
+    /* высота строки */
+    line-height: 20px; /* 142.857% */
+    /* расстояние */
+    letter-spacing: 2px;
+    /* регистр */
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h1 {
+    /* максимальное значение ширины блока */
+    max-width: 420px;
+    color: #1B1A1A;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70.4px; /* 110% */
+    margin-bottom: 18px;
+}
+
+.MainP {
+    max-width: 510px;
+    color: #403E3B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 40px;
+}
+
+.button {
+    border-radius: 14px;
+    background: #1B1A1A;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+    padding: 11px 20px;
+    max-width: 144px;;
+}
+
+.Section_2_h2 {
+    /* центрирование строчных элементов */
+    /* text-align: center; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 130px;
+    color: #403E3B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 118.75% */
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container_Section_2 {
+    max-width: 530px;
+    /* центрирование блочных элементов */
+    margin: 0 auto;
+}
+
+.Section_2_paragraph {
+    max-width: 520px;
+    color: #403E3B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Section_3 {
+    /* Ограничение максимальной ширины блока */
+    max-width: 1440px; 
+    margin: 0 auto;
+    border: 2px;
+    min-height: 10px;
+}
+
+.subtitle {
+    color: #645C55;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 100px;
+}
+
+.title {
+    color: #1B1A1A;
+    text-align: center;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 107.692% */   
+}
+.cards {
+    margin-top: 40px;
+    margin-bottom: 100px;
+    text-align: center;
+
+}
+.card1 {
+    border: 2px;
+    max-width: 370px;
+    text-align: center;
+    padding: 0 42px;
+    display: inline-block;
+}
+
+.container {
+    /*max-width: 1440px;*/
+    margin: 0 auto;
+    padding: 42px;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+
+.card-img {
+    max-width: 117px;
+    margin-bottom: 15px;
+}
+.card-title {
+    color: #403E3B;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+    margin-bottom: 10px;
+}
+
+.text {
+    color: #645C55;
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+}
+
+.sec-fluid {
+    min-height: 600px;
+    /* для полномасштабных фоновых изобюражений */
+    background: url(IMAGE.jpg) center/cover no-repeat;
+    padding: 0 75px;
+    display: flex;
+    /*главная ось*/
+    justify-content: end;
+    /* поперечная ось */
+    align-items: center;
+}
+.left {
+    background: url(IMAGE2.jpg) center/cover no-repeat;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.box {
+    max-width: 285px;
+}
+.box-title {
+    color: #403E3B;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.box-text {
+    color: #645C55;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+ul {
+    list-style-type: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-list {
+    display: flex;
+    align-items: center;
+
+}
+.nav-link {
+    margin-right: 32px;
+}
+
+.container_3 {
+    /*max-width: 1440px;*/
+    margin: 0 auto;
+}
+.projects {
+    padding: 136px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background: #F7F7F7;
+}
+.section_team {
+    padding: 100px 136px;
+    
+}
+.teams-title {
+    color: #1B1A1A;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 152.941% */
+}
+.teams_subtitle {
+    color: #645C55;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 100% */
+}
+
+.flex-team {
+    display: flex;
+    justify-content:space-between;
+}
+.text_team {
+
+    width: 35%;
+}
+
+.txt-team {
+    margin-top: 16px;
+    margin-bottom: 40px;;
+}
+.teams {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.teams-item {
+    width: 45%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    margin-right: 15px;
+}
+.teams-img {
+    margin-right: 30px;
+}
+.title-team {
+    color: #403E3B;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 38px; /* 118.75% */
+}
+.featured-projects {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.feat-proj {
+    color: #1B1A1A;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px; /* 107.692% */
+}
+.feat-projsub {
+    color: #645C55;
+    max-width: 581px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+}
+.proj-txt {
+    color: #1B1A1A;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    letter-spacing: 0.4px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.projects-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.projects-item {
+    min-height: 460px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+.burger {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    display: none;
+}
+.burger > img {
+    width: 100%
+}
+
+.bg1 {
+    background: url(bck1.png) center/cover no-repeat;
+}
+.item-txt {
+}
+
+.bg2 {
+    background: url(bck2.png) center/cover no-repeat;
+}
+.bg3 {
+    background: url(bck3.png) center/cover no-repeat;
+}
+
+.h3 {
+     /* максимальное значение ширины блока */
+     max-width: 600px;
+     color: #1B1A1A;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 42px; /* 105% */
+}
+.prefooter-flex {
+    display: flex;
+    /* выравнивание */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.prefooter-txt {
+    max-width: 570px;
+}
+.pref-container {
+    /*max-width: 1440px;*/
+    background: #CEC4BC;;
+    margin: 0 auto;
+    padding: 120px;
+    padding-left: 136px;
+    padding-right: 136px;
+}
+.footer {
+    padding: 60px 0;
+}
+.footer-flex {
+    display: flex;
+    /* выравнивание */
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.footer-txt {
+    width: 40%;
+    max-width: 430px;
+}
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.footer-text {
+}
+.footer-icons {
+    width: 10%;
+    min-width: 112px;
+}
+
+
+/* adaptive */
+@media (max-width: 1100px) {
+    .main-img {
+        max-width: 38%;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-img {
+        display: none;
+    }
+    .nav-list {
+        /* скрываем элемент */
+        display: none;
+    }
+    .burger {
+        display: block;
+        margin-left: 8px;
+    }
+    .projects {
+        padding: 80px 80px;
+    }
+    .section_team {
+        padding: 80px 80px;
+    }
+    .text_team {
+                width: 65%;
+                margin-bottom: 25px;
+    }
+    .teams {
+        width: 90%;
+    }
+    .card1 {
+        margin-top: 24px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .projects-item {
+        width: 49%;
+        margin-bottom: 15px;
+    }
+    .projects-box {
+        justify-content: space-around;
+    }
+    .container_3 {
+        padding: 0 2%;
+    }
+    .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .projects {
+        padding: 80px 40px;
+    }
+    .section_team {
+        padding: 80px 40px;
+    }
+    .pref-container {
+        padding: 80px 40px;
+    }
+    .teams-item {
+        width: 90%;
+    }
+    .teams {
+        width: 60%;
+    }
+    .flex-team {
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_team {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    .projects-item {
+        width: 80%;
+        height: 360px;
+    }
+    .nav {
+        gap: 8px;
+        flex-direction: column;
+    }
+    .button {
+        padding: 8px 14px;
+        border-radius: 8px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .MainScreen { 
+        padding: 100px 70px;
+    }
+    .MainScreen  h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .container_Section_2 {
+        padding: 0 2%;
+    }
+    .h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .feat-proj {
+        font-size: 32px;
+        line-height: 34px;
+    }
+    .feat-projsub {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .text_team {
+        width: 100%;
+
+    }
+    .footer-flex {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-icons {
+        margin-top: 12px;
+    }
+    .teams {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+.container_Section_2 {
+    padding: 30px;
+}
+}
